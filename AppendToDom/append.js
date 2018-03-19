@@ -5,7 +5,10 @@ document.body.appendChild(h1);
 
 
 var myDiv = document.createElement('div');
-myDiv.setAttribute('id', 'container');
-myDiv.setAttribute('color', 'blue');
-document.body.appendChild('myDiv');
+myDiv.style.width = "100px";
+myDiv.stye.height = "100px";
+myDiv.style.background = "red";
+myDiv.style.color = "white";
+document.body.appendChild(myDiv);
+
 
